@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Message to Telegram Bot</title>
+</head>
+<body>
+    <h1>Send Message to Telegram Bot</h1>
+    <form action="/send_message" method="POST">
+        <label for="chat_id">Chat ID:</label>
+        <input type="text" id="chat_id" name="chat_id" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br>
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
